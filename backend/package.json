@@ -1,0 +1,19 @@
+{
+  "name": "taskflow-backend",
+  "version": "1.0.0",
+  "description": "REST API for TaskFlow \u2014 a task, member, and team management app",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register - TaskFlow</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✅</text></svg>">
+<link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+
+<div class="auth-wrapper">
+  <div class="auth-card">
+    <h2>Create Account 🚀</h2>
+    <p class="subtitle">Start organizing your team's work</p>
+
+    <form id="registerForm" novalidate>
+      <input type="text" id="u" placeholder="Username" autocomplete="username" required>
+      <input type="email" id="e" placeholder="Email (optional)" autocomplete="email">
+      <input type="password" id="p" placeholder="Password (min. 6 characters)" autocomplete="new-password" required>
+      <button type="submit" id="registerBtn">Create account</button>
+    </form>
+
+    <p class="switch">
+      Already have an account?
+      <a href="login.html">Login</a>
+    </p>
+  </div>
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/toast.js"></script>
+<script src="js/auth.js"></script>
+<script>AuthPage.initRegister();</script>
+</body>
+</html>

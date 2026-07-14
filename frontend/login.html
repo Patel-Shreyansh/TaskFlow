@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - TaskFlow</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✅</text></svg>">
+<link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+
+<div class="auth-wrapper">
+  <div class="auth-card">
+    <h2>Welcome Back 👋</h2>
+    <p class="subtitle">Log in to your TaskFlow account</p>
+
+    <form id="loginForm" novalidate>
+      <input type="text" id="u" placeholder="Username" autocomplete="username" required>
+      <input type="password" id="p" placeholder="Password" autocomplete="current-password" required>
+      <button type="submit" id="loginBtn">Login</button>
+    </form>
+
+    <p class="switch">
+      Don't have an account?
+      <a href="register.html">Register</a>
+    </p>
+  </div>
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/toast.js"></script>
+<script src="js/auth.js"></script>
+<script>AuthPage.initLogin();</script>
+</body>
+</html>

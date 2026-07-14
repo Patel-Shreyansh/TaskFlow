@@ -1,0 +1,9 @@
+GitHub package prepared.
+
+Before uploading:
+1. Test login/register.
+2. Test creating tasks, members and teams.
+3. Run npm install inside backend.
+4. Remove .vscode if you do not need it.
+
+Screenshots were added to the screenshots folder.

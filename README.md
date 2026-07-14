@@ -27,6 +27,36 @@ A full-stack task and team management app: kanban-style task board, teammates, t
 
 - **Node.js 22.5 or newer** (needed for the built-in `node:sqlite` module)
 
+## Screenshots
+
+### Login Page
+
+![Login](screenshots/Screenshot%20(11).png)
+
+### Register Page
+
+![Register](screenshots/Screenshot%20(12).png)
+
+### Dashboard
+
+![Dashboard](screenshots/Screenshot%20(7).png)
+
+### Tasks
+
+![Tasks](screenshots/Screenshot%20(8).png)
+
+### Members
+
+![Members](screenshots/Screenshot%20(5).png)
+
+### Teams
+
+![Teams](screenshots/Screenshot%20(4).png)
+
+### Progress
+
+![Progress](screenshots/Screenshot%20(3).png)
+
 ## Getting started
 
 ### 1. Backend

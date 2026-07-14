@@ -115,3 +115,8 @@ All routes except register/login require `Authorization: Bearer <token>`.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+##Author 
+
+Shreyansh Patel
+
